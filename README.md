@@ -2,21 +2,13 @@
 
 In this workshop, you'll build a minimal landing page for an agency.
 
-This mockup is built entirely using _flow layout_: no Flexbox, no grid, no absolute positioning. It relies heavily on padding, margin, and border.
-
-## Mockups
-
-Desktop:
+This mockup is built entirely using _flow layout_: no Flexbox, no grid, no absolute positioning, no media queries. It relies heavily on padding, margin, and border, as well as some of the tricks we learned in Module 1.
 
 <img alt="Desktop-sized screenshot of an agency landing page" src="./docs/huckleberry-desktop.png" style="" />
 
-Tablet:
+The design is available on Figma:
 
-<img alt="Tablet-sized screenshot of an agency landing page" src="./docs/huckleberry-tablet.png" style="max-width: 400px;" />
-
-Mobile:
-
-<img alt="Mobile-sized screenshot of an agency landing page" src="./docs/huckleberry-mobile.png" style="max-width: 300px;" />
+- https://www.figma.com/file/6hGqKA5scrZJScb9KW3Hj2/Huckleberry
 
 ## Setup Instructions
 
@@ -63,6 +55,8 @@ You can visit `http://localhost:9000` to view the page. You should see a bunch o
 - **Pay close attention to alignment.** For example, you should be able to draw a line along the left, and all text should be neatly aligned:
 
 ![Desktop mockup with a vertical line showing alignment](./docs/aligned.png)
+
+(I've made this image semi-transparent to highlight the alignment; see the Figma for a color-accurate reference!)
 
 That said: Don't worry if you can't create a pixel-perfect recreation. In the solution video, I'll show you exactly how I did it. Spend an hour or so on this project, and submit whatever you have at that point.
 
@@ -125,10 +119,6 @@ Grays:
 - `hsl(0deg, 0%, 40%)` (medium)
 - `hsl(0deg, 0%, 60%)` (light)
 - `hsl(0deg, 0%, 100%)` (white)
-
-> What the HSL?
->
-> You may be more familiar with color values in hexadecimal format, like `#FF0000`. In Module 0's "color" lesson, we go over what HSL color is and how it works. If you haven't already, it's worth reviewing before getting started!
 
 ## Submissions
 
